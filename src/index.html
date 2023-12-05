@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800;900&display=swap" rel="stylesheet">
     <title>Studion - Empresa</title>
   </head>
+
   <body>
     <nav>
       <h1>
@@ -17,7 +18,7 @@
       </h1>
         <ul>
           <li>
-           <a href="#">Empresa</a>
+           <a href="#" class="selected">Empresa</a>
           </li>
           <li>
             <a href="#">Eventos</a>
@@ -33,42 +34,66 @@
          </li>
         </ul>
     </nav>
-    <head>
+    <header>
       <h2>.empresa</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus dolores nam repellendus accusamus placeat tenetur eius numquam voluptatem, mollitia suscipit ipsam nobis consectetur inventore dicta, rerum excepturi ipsa. Voluptatum, consequatur!</p>
-    </head>
-    <main>
-      <section>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    </header>
 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            </p>
-            <img src="./images/Man.png" alt="pessoa falando ao celular"/>
+    <main>
+      <section class="section1">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <p class="paragrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="paragrafo2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+          <div>
+            <img src="./images/Man.png" alt="pessoa falando ao celular" class="pessoa">
+          </div>
       </section>
-      <section>
+
+      <section class="section2">
         <h4>Quem confia no nosso trabalho</h4>
         <img src="./images/logos 1.png" alt="logos de empresas parceiras"/>
       </section>
-      <section>
+
+      <section class="section3">
         <img src="./images/Video.png" alt="pessoa sentada na sacada de um prédio olhando a vista"/>
       </section>
-    </main>
+   </main>
+
     <footer>
-      <h2>Studi<span>on</span> <span>Eventos</span></h2>
-      <form>
-        <label>
-          Receba News e promoções
-        </label>
-        <input type="email" placeholder="Email"/>
-        <button type="submit">Enviar</button>
-      </form>
-      <ul>
-        <li>facebook</li>
-        <li>whatsapp</li>
-        <li>Youtube</li>
-      </ul>
-      <hr./>
+      <div>
+        <h2>
+        Studi<span class="accent">on</span> 
+        <span class="subtitle">Eventos</span>
+        </h2>
+        <form>
+          <label>
+            Receba News e promoções
+          </label>
+          <input type="email" placeholder="Email"/>
+          <button type="submit">
+            <img src="./images/send2.svg" alt="enviar">
+          </button>
+        
+        </form>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./images/facebook.png" alt="facebook">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/whatsapp.png" alt="whatsapp">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/youtube.png" alt="youtube">
+            </a>
+          </li>
+        </ul>
+    </div>
+      <hr/>
       <p>Studi<span>on</span> - Todos os direitos reservados</p>       
     </footer>
   </body>
